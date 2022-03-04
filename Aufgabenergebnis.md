@@ -18,22 +18,35 @@ Mir ist bewusst, dass dadurch meine Einlesemethode alles andere als effizient is
 
 ## Installation / Ausführen des Projektes
 
-Beschreibe, wie wir uns das Projekt lokal anschauen können.
+Um das Projekt lokal auszuführen muss man die **CSV-Aufgabe.exe** in <i>`CSV-Aufgabe/bin/Release/`</i> herunterladen und starten.
 
-Zum Beispiel:
+PS: Es dauert ein wenig beim Laden, in der das Programm nichts anzeigt, also nicht wundern :)
 
 ---
+Geprüft für Windows Version: 21H1 (Build 19043.1526)
 
-Folgende Komponenten müssen lokal installiert sein:
+Folgende Komponente muss lokal installiert sein:
 
 - [.NET Framework](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) v4.8
-
-Um das Projekt lokal auszuführen, folgendes in der Commandline / Bash eingeben:
-
-```console
-$ git clone <linktorepository> udg-probeaufgabe
-$ cd udg-probeaufgabe
-$ npm install
-$ npm run start
-```
 ---
+
+## Wichtige Informationen
+
+Ich habe wie oben bereits erwähnt noch nie zuvor mit Windows Forms oder CSV-Dateien gearbeitet.
+Daher hat alles ein wenig länger gedauert und ich bin auch nicht ganz fertig geworden.
+
+```
+Aktuelle Features:
+  - Import von CSV-Datei
+  - tabelarische Darstellung der Inhalte der CSV-Datei
+  - Die Möglichkeit die CSV-Datei zu bearbeiten und erweitern
+  - Abspeichern in die geöffnete Datei
+  - Abspeichern/Export als CSV-Datei
+```
+```
+Fehlende Features:
+  - Graphische Darstellung der einzelnen Einträge
+  - Multithreating beim Ladebalken, sodass der Endnutzer sieht, dass das Programm arbeitet
+```
+
+Ich bedanke mich für die sehr spannende Aufgabe, an der ich auf jeden Fall weiterarbeiten werde, um die fehlenden Features noch zu ergänzen und noch uneffiziente/unstrukturierte Methoden noch besser zu gestalten.
