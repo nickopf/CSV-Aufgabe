@@ -1,0 +1,9 @@
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\bin\Release\CSV-Aufgabe.exe.config
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\bin\Release\CSV-Aufgabe.exe
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\bin\Release\CSV-Aufgabe.pdb
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Release\CSV_Aufgabe.Form1.resources
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Release\CSV_Aufgabe.Properties.Resources.resources
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Release\CSV-Aufgabe.csproj.GenerateResource.cache
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Release\CSV-Aufgabe.csproj.CoreCompileInputs.cache
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Release\CSV-Aufgabe.exe
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Release\CSV-Aufgabe.pdb

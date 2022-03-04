@@ -1,0 +1,10 @@
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\bin\Debug\CSV-Aufgabe.exe.config
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\bin\Debug\CSV-Aufgabe.exe
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\bin\Debug\CSV-Aufgabe.pdb
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV_Aufgabe.Form1.resources
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV_Aufgabe.Properties.Resources.resources
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV-Aufgabe.csproj.GenerateResource.cache
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV-Aufgabe.csproj.CoreCompileInputs.cache
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV-Aufgabe.exe
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV-Aufgabe.pdb
+C:\Users\nickb\source\repos\CSV-Aufgabe\CSV-Aufgabe\obj\Debug\CSV-Aufgabe.csproj.AssemblyReference.cache
