@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
 [assembly: AssemblyTitle("CSV-Aufgabe")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Öffnet CSV-Dateien und exportiert diese als CSV wieder")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CSV-Aufgabe")]

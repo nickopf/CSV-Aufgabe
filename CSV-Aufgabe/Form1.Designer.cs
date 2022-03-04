@@ -29,9 +29,13 @@ namespace CSV_Aufgabe
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint1 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(2D, "30,0");
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint2 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(4D, 40D);
+            System.Windows.Forms.DataVisualization.Charting.DataPoint dataPoint3 = new System.Windows.Forms.DataVisualization.Charting.DataPoint(0D, 25D);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.chartPanel = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MenuStrip = new System.Windows.Forms.MenuStrip();
@@ -56,17 +60,24 @@ namespace CSV_Aufgabe
             // chartPanel
             // 
             this.chartPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea2.Name = "ChartArea1";
-            this.chartPanel.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartPanel.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chartPanel.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartPanel.Legends.Add(legend1);
             this.chartPanel.Location = new System.Drawing.Point(701, 55);
             this.chartPanel.Name = "chartPanel";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            series2.YValuesPerPoint = 2;
-            this.chartPanel.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            dataPoint1.LegendText = "Nakedshirt";
+            dataPoint2.LegendText = "Jassz";
+            dataPoint3.LegendText = "Anvil";
+            series1.Points.Add(dataPoint1);
+            series1.Points.Add(dataPoint2);
+            series1.Points.Add(dataPoint3);
+            series1.YValuesPerPoint = 2;
+            this.chartPanel.Series.Add(series1);
             this.chartPanel.Size = new System.Drawing.Size(300, 300);
             this.chartPanel.TabIndex = 0;
             this.chartPanel.Text = "chartPanel";
@@ -198,6 +209,7 @@ namespace CSV_Aufgabe
             this.Controls.Add(this.MenuStrip);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.chartPanel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.MenuStrip;
             this.MinimumSize = new System.Drawing.Size(1029, 416);
             this.Name = "Form1";
