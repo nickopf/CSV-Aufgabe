@@ -14,13 +14,13 @@ Windows Forms ist mir von einem Freund empfohlen worden, der bereits einige Jahr
 
 Ich setze in meinem Projekt bewusst keine 3rd Party Libraries ein, da ich bisher noch nie mit CSV-Dateien gearbeitet habe, wollte ich mich selbst daran probieren Einlese- und Exportmethoden zu schreiben, um näher zu verstehen wie CSV-Dateien funktionieren und wie man sie in Programmen nutzbar machen kann.
 
-Mir ist bewusst, dass dadurch meine Einlesemethode alles andere als effizient ist, doch ich konnte durch diese Aufgabe und das eigenständige schreiben der Methode viel lernen.
+Mir ist bewusst, dass dadurch meine Einlesemethode alles andere als effizient ist, doch ich konnte durch diese Aufgabe und das eigenständige schreiben der Methoden viel lernen.
 
 ## Installation / Ausführen des Projektes
 
 Um das Projekt lokal auszuführen muss man die **CSV-Aufgabe.exe** in <i>`CSV-Aufgabe/bin/Release/`</i> herunterladen und starten.
 
-PS: Es dauert ein wenig beim Laden, in der das Programm nichts anzeigt, also nicht wundern :)
+PS: Es dauert ein wenig Zeit beim Laden, in der das Programm nichts anzeigt, also nicht wundern :)
 
 ---
 Geprüft für Windows Version: 21H1 (Build 19043.1526)
